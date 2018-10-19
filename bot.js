@@ -16,7 +16,7 @@ client.user.setStatus("dnd")
 const client = new Discord.Client();
 
  client.on('message', message => {
-    if (message.content.startsWith("رابط")) {
+    if (message.content.startsWith("ر")) {
         message.channel.createInvite({
         thing: true,
         maxUses: 3,
